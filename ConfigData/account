@@ -1,0 +1,6 @@
+server:
+  port: 9002
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
