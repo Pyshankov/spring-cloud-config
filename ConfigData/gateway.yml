@@ -13,6 +13,9 @@ zuul:
 
     accounts:
        serviceId: account
+       
+    demo:
+       serviceId: demo 
 
 server:
   port: 9000
