@@ -1,5 +1,4 @@
-server:
-  port: 9003
+
 spring:
   cloud:
     zookeeper:
