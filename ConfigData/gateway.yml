@@ -15,7 +15,9 @@ zuul:
        serviceId: account
        
     demo:
-       serviceId: demo 
+       serviceId: demo
+    eureka:
+       serviceId: eureka
 
 server:
   port: 9000
