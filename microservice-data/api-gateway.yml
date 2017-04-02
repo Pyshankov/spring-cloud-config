@@ -1,0 +1,20 @@
+
+spring:
+  cloud:
+    euruka:
+      connect-string: localhost:8761
+
+zuul:
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+  routes:
+    user-service:
+       serviceId: user
+
+    bank-service:
+       serviceId: bank
+
+
+server:
+  port: 8080
