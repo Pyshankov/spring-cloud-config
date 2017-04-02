@@ -1,0 +1,5 @@
+
+spring:
+  cloud:
+    euruka:
+      connect-string: localhost:8761
