@@ -14,6 +14,9 @@ zuul:
 
     bank-service:
        serviceId: bank-service
+       
+    statistic-service:
+       serviceId: statistic-service
 
 
 server:
